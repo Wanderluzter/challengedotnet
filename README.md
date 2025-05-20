@@ -45,35 +45,35 @@ Cada moto está associada a uma **Tag BLE (Bluetooth Low Energy)** que envia dad
 
 📌 Endpoints principais
 🛵 Motos
-GET /motos – Listar todas as motos
+- GET /motos – Listar todas as motos
 
-GET /motos/{id} – Buscar moto por ID
+- GET /motos/{id} – Buscar moto por ID
 
-POST /motos – Criar nova moto
+- POST /motos – Criar nova moto
 
-PUT /motos/{id} – Atualizar moto existente
+- PUT /motos/{id} – Atualizar moto existente
 
-DELETE /motos/{id} – Deletar moto
+- DELETE /motos/{id} – Deletar moto
 
 📡 Tags
-GET /tags – Listar todas as tags
+- GET /tags – Listar todas as tags
 
-GET /tags/{id} – Buscar tag por ID
+- GET /tags/{id} – Buscar tag por ID
 
-POST /tags – Criar nova tag
+- POST /tags – Criar nova tag
 
-PUT /tags/{id} – Atualizar tag existente
+- PUT /tags/{id} – Atualizar tag existente
 
-DELETE /tags/{id} – Deletar tag
+- DELETE /tags/{id} – Deletar tag
 
 📚 Tecnologias utilizadas
 .NET 8
 
-C# com Minimal APIs
+- C# com Minimal APIs
 
-Entity Framework Core
+- Entity Framework Core
 
-Swagger (para documentação e testes)
+- Swagger (para documentação e testes)
 
 
 
