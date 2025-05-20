@@ -28,24 +28,15 @@ Cada moto está associada a uma **Tag BLE (Bluetooth Low Energy)** que envia dad
 ### ▶️ Passos para rodar
 
 1. Clone o repositório:
-
-   ```bash
    git clone https://github.com/Wanderluzter/challengedotnet.git
    
 2.Acesse a pasta do projeto:
-
-   ```bash
    git clone https://github.com/Wanderluzter/challengedotnet.git
 
 3.Execute o projeto
-
-   ```bash
    git clone https://github.com/Wanderluzter/challengedotnet.git
 
 4. Acesse a API em:
-
-- http://localhost:5000
-
 
 - http://localhost:5000
 
