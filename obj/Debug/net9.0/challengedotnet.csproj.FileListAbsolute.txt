@@ -134,3 +134,8 @@
 /home/leonardo/challengedotnet/obj/Debug/net9.0/challengedotnet.pdb
 /home/leonardo/challengedotnet/obj/Debug/net9.0/challengedotnet.genruntimeconfig.cache
 /home/leonardo/challengedotnet/obj/Debug/net9.0/ref/challengedotnet.dll
+/home/leonardo/challengedotnet/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/home/leonardo/challengedotnet/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/leonardo/challengedotnet/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/leonardo/challengedotnet/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/leonardo/challengedotnet/obj/Debug/net9.0/challengedotnet.MvcApplicationPartsAssemblyInfo.cs
