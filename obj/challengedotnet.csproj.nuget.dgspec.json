@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/leonardo/challengedotnet/challengedotnet/challengedotnet.csproj": {}
+    "/home/leonardo/challengedotnet/challengedotnet.csproj": {}
   },
   "projects": {
-    "/home/leonardo/challengedotnet/challengedotnet/challengedotnet.csproj": {
+    "/home/leonardo/challengedotnet/challengedotnet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/leonardo/challengedotnet/challengedotnet/challengedotnet.csproj",
+        "projectUniqueName": "/home/leonardo/challengedotnet/challengedotnet.csproj",
         "projectName": "challengedotnet",
-        "projectPath": "/home/leonardo/challengedotnet/challengedotnet/challengedotnet.csproj",
+        "projectPath": "/home/leonardo/challengedotnet/challengedotnet.csproj",
         "packagesPath": "/home/leonardo/.nuget/packages/",
-        "outputPath": "/home/leonardo/challengedotnet/challengedotnet/obj/",
+        "outputPath": "/home/leonardo/challengedotnet/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/leonardo/.nuget/NuGet/NuGet.Config"
@@ -44,6 +44,18 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Oracle.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.23.80, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
