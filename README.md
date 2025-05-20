@@ -1,6 +1,6 @@
 # 🏍️ challengedotnet
 
-Repositório do projeto desenvolvido para a disciplina **Java Advanced** do Challenge FIAP/Mottu 2025.
+Repositório do projeto desenvolvido para a disciplina **Advanced Business Development with .Net** do Challenge FIAP/Mottu 2025.
 
 Apesar do nome da disciplina, o projeto foi desenvolvido com **.NET 8 (Minimal API)**, utilizando C#. Ele simula um sistema backend de rastreamento de motos em tempo real, com CRUD completo, paginação e relacionamento entre entidades.
 
@@ -40,7 +40,13 @@ Cada moto está associada a uma **Tag BLE (Bluetooth Low Energy)** que envia dad
 4. Acesse a API em:
 - http://localhost:5000
 
+
 📌 Endpoints principais
+
+🔗 Documentação Scalar
+Acesse a documentação completa aqui:
+https://sprint1dotnet.apidocumentation.com/reference
+
 🛵 Motos
 - GET /motos – Listar todas as motos
 
@@ -51,17 +57,6 @@ Cada moto está associada a uma **Tag BLE (Bluetooth Low Energy)** que envia dad
 - PUT /motos/{id} – Atualizar moto existente
 
 - DELETE /motos/{id} – Deletar moto
-
-📡 Tags
-- GET /tags – Listar todas as tags
-
-- GET /tags/{id} – Buscar tag por ID
-
-- POST /tags – Criar nova tag
-
-- PUT /tags/{id} – Atualizar tag existente
-
-- DELETE /tags/{id} – Deletar tag
 
 📚 Tecnologias utilizadas
 .NET 8
